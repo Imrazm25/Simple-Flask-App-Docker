@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-flask-app
-        image: your-dockerhub-username/simple-flask-app:latest
+        image: imraz25/flask_app:v1
         ports:
         - containerPort: 5000
         env:
