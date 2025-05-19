@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-flask-app
-        image: imraz25/flask_app:v1
+        image: imraz25/simple-flask-app:v1
         ports:
         - containerPort: 5000
         env:
